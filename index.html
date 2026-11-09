@@ -150,6 +150,7 @@ section.page{padding-block:clamp(84px,12vw,150px)}
 .slot + .slot::before{content:"";display:block;width:1px;height:clamp(44px,7vw,64px);margin:22px 0 18px;background:linear-gradient(var(--line),var(--rose))}
 .slot time{font-weight:300;font-size:clamp(40px,7vw,52px);line-height:1;color:var(--gold);font-variant-numeric:tabular-nums lining-nums}
 .slot .dot{display:none}
+.slot-mark{font-size:22px;line-height:1;color:var(--rose)}
 .slot h3{margin:4px 0 0;font-weight:500;font-size:clamp(22px,3vw,26px);letter-spacing:.02em;color:var(--ink)}
 .slot p{font-size:18px;color:var(--rose-ink);font-style:italic;max-width:30ch}
 
@@ -378,8 +379,9 @@ footer .tag{font-family:var(--f-ui);font-size:12px;letter-spacing:.3em;color:var
     <ol class="timeline">
       <li class="ink" aria-hidden="true"></li>
       <li class="slot key reveal"><time datetime="2027-06-19T18:00">18:00</time><span class="dot"></span><div><h3>Cununia religioasă</h3><p>În grădina Foret D'Or</p></div></li>
-      <li class="slot key reveal"><time datetime="2027-06-19T19:00">19:00</time><span class="dot"></span><div><h3>Petrecerea</h3><p>Cocktail, cină și dans până dimineață</p></div></li>
-      <li class="slot key reveal"><time datetime="2027-06-19T21:30">21:30</time><span class="dot"></span><div><h3>Dansul mirilor</h3><p>Primul nostru dans ca soț și soție</p></div></li>
+      <li class="slot key reveal"><time datetime="2027-06-19T19:00">19:00</time><span class="dot"></span><div><h3>Începe petrecerea</h3></div></li>
+      <li class="slot key reveal"><time datetime="2027-06-19T20:30">20:30</time><span class="dot"></span><div><h3>Dansul mirilor</h3><p>Primul nostru dans ca soț și soție</p></div></li>
+      <li class="slot end reveal"><span class="slot-mark" aria-hidden="true">✦</span><div><h3>Dansăm până dimineața</h3><p>Cină, muzică și voie bună alături de voi</p></div></li>
     </ol>
   </div>
 </section>
